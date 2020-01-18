@@ -2,7 +2,7 @@
 
 Name:           %{short_name}-pom
 Version:        1.2
-Release:        6%{?dist}
+Release:        7%{?dist}
 Summary:        Plexus Components POM
 BuildArch:      noarch
 Group:          Development/Libraries
@@ -32,6 +32,9 @@ cp -p %{SOURCE1} LICENSE
 %doc LICENSE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.2-7
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.2-6
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
